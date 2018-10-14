@@ -9,7 +9,7 @@ public class Main {
         Scanner teclat = new Scanner(System.in);
         Random aleatori = new Random();
         int numero = teclat.nextInt();
-        int[] nombres = new int[500000];
+        int[] nombres = new int[1000000];
         for (int i = 0; i <nombres.length ; i++) {
             int nombre = aleatori.nextInt(500);
             nombres[i]=nombre;
